@@ -23,7 +23,7 @@ include $(INCLUDE_DIR)/cmake.mk
 define Package/ubus
   SECTION:=base
   CATEGORY:=Base system
-  DEPENDS:=+libubus +libblobmsg-json +ubusd
+  DEPENDS:=+libubus +libblobmsg-json +ubusd +libpthread
   TITLE:=OpenWrt RPC client utility
 endef
 
